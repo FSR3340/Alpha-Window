@@ -1,0 +1,167 @@
+/* pages/weather/weather.wxss */
+
+.container {
+  background:linear-gradient(rgb(3, 99, 134),rgb(15,115,144));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.border_1 {
+  border: 1px none rgb(4,111,148);
+  border-radius: 5px;
+  margin: 6.5px;
+  margin-top: 8.5px;
+  width: 350px; /*iphone:360px*/
+  box-shadow:1px 1px 1px rgba(0,0,0,0.1) ;
+  color: white;
+  display: flex;
+}
+
+.b1_c1 {
+  padding-left:15px;
+  padding-top:9px;
+  padding-bottom:9px;
+  width: 220px;
+}
+
+.b1_c2 {
+  /* margin-right:13px; */
+  position: absolute;
+  right:20px;
+  width: 74px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.b1_l1 {
+  font-size: 13px;
+  color: rgb(255,255,255,0.75);
+}
+
+.b1_l2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.b1_l3 {
+  font-weight: bold;
+}
+
+.title {
+  padding-left:15px;
+  padding-top:9px;
+  padding-bottom:9px;
+  font-weight: bold;
+}
+
+.border_2 {
+  border: 1px none rgb(4,111,148);
+  border-radius: 5px;
+  margin: 6.5px;
+  margin-top: 5px;
+  width: 350px; /*iphone:360px*/
+  box-shadow:1px 1px 1px rgba(0,0,0,0.1) ;
+  color: black;
+}
+
+.b2_c {
+  display: flex;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.b2_c1 {
+  text-align: center;
+  width:64px;
+  margin-bottom:20px;
+}
+
+.high {
+  margin-top: 7px;
+  color:rgb(13,67,224);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.low {
+  color:rgb(13,67,224);
+  font-size: 15px;
+}
+
+.line {
+  background: linear-gradient(white,lightgray,white);
+  width:2px;
+}
+
+.border_3 {
+  border: 1px none rgb(4,111,148);
+  border-radius: 5px;
+  margin: 6.5px;
+  margin-top: 5px;
+  width: 350px; /*iphone:360px*/
+  box-shadow:1px 1px 1px rgba(0,0,0,0.1) ;
+  color: black;
+}
+
+.b3_l1 {
+  display: flex;
+  width:277px;
+  /* margin-bottom: 18px; */
+}
+
+.b3_l1_c1 {
+  padding-left:15px;
+  padding-top:9px;
+}
+
+.b3_l1_c1_1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.b3_l1_c2 {
+  padding-right:15px;
+  padding-top:9px;
+  position: absolute; 
+  right: 20px;
+  text-align: right;
+}
+
+.b3_l1_c2_1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.b3_l2 {
+  border-top: 1px solid lightgray;
+  display:flex;
+  align-items: center;
+  height:35px;
+  padding-left: 35px;
+}
+
+.right {
+  position: absolute;
+  right: 35px;
+}
+
+.typeImg1 {
+  width:60px;
+  height:60px;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+.typeImg2 {
+  width:40px;
+  height:40px;
+  vertical-align: middle;
+}
+
+.typeImg3 {
+  width:25px;
+  height:25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}

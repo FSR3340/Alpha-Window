@@ -1,0 +1,69 @@
+<view class="container">
+  <view class="title">偏好设置</view>
+<!-- 
+  <view class="set">
+    <view class="subtitle">下雨程度</view> 
+    <view class="inline">
+      <button class="border_left"></button>
+      <button class="border_right"></button>
+    </view>
+    <view class="inline">
+      <button class="border_left"></button>
+      <button class="border_right"></button>
+    </view>
+    <view class="inline">
+      <button class="border_left"></button>
+      <button class="border_right"></button>
+    </view>
+  </view> -->
+
+  <view class="set">
+    <view class="inline">
+      <view class="subtitle">对降雨敏感</view>
+      <!-- <input bindinput="input" placeholder="{{slider1}}" class="input"/> -->
+    </view>
+    <view class="slider"> <slider bindchange="changeSlider1" min="0" max="100" value="{{slider1}}" show-value/> </view>
+  </view>
+
+  <view class="set">
+    <view class="inline">
+      <view class="subtitle">对风敏感</view>
+      <!-- <input bindinput="input" placeholder="{{slider2}}" class="input"/> -->
+    </view>
+    <view class="slider"> <slider bindchange="changeSlider2" min="0" max="100" value="{{slider2}}" show-value/> </view>
+  </view>
+
+  <view class="set">
+    <view class="inline">
+      <view class="subtitle">对温度敏感</view>
+      <!-- <input bindinput="input" placeholder="{{slider3}}" class="input"/> -->
+    </view>
+    <view class="slider"> <slider bindchange="changeSlider3" min="0" max="100" value="{{slider3}}" show-value/> </view>
+  </view>
+
+  <view class="set">
+    <view class="inline">
+      <view class="subtitle">对空气质量敏感</view>
+      <!-- <input bindinput="input" placeholder="{{slider4}}" class="input"/> -->
+    </view>
+    <view class="slider"> <slider bindchange="changeSlider4" min="0" max="100" value="{{slider4}}" show-value/> </view>
+  </view>
+
+  <view class="set">
+    <view class="inline">
+      <view class="subtitle">对含氧量敏感</view>
+      <!-- <input bindinput="input" placeholder="{{slider5}}" class="input"/> -->
+    </view>
+    <view class="slider"> <slider bindchange="changeSlider5" min="0" max="100" value="{{slider5}}" show-value/> </view>
+  </view>
+
+  <view class="set">
+    <view class="bottom">
+      <text>0为最低  100为最高\n</text>
+      <text>默认50\n</text>
+      <text>该权重将影响自动托管时开关决策\n</text>
+    </view>
+  </view>
+
+
+</view>

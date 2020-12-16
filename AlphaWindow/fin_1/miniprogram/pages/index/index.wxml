@@ -1,0 +1,24 @@
+<view class="container">
+
+    <view class="border">
+    <view class="border_top">tips</view>
+    <view class="border_bottom">
+      <view class="line">当前</view>
+      <view class="line">预计</view>
+      <view class="line_0">建议</view>
+    </view>
+  </view>
+
+  
+  <image class="typeImg" src="../../images/alpha.png"></image>
+
+  <view class="bottom">
+    <view class="text">
+      手动 <text decode="{{true}}">&ensp;</text> <switch checked="{{switch1Checked}}" bindchange="switch1Change" color="black"/>自动
+    </view>
+    <text>\n</text>
+    <view class="text">
+      关窗 <text decode="{{true}}">&ensp;</text> <switch checked="{{switch2Checked}}" bindchange="switch2Change" color="black"/>开窗
+    </view>
+  </view>
+</view>

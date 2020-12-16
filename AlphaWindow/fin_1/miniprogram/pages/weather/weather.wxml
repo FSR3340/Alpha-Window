@@ -1,0 +1,117 @@
+<view class="container">
+
+  <view class="border_1" style="background:rgb(29,125,158)">
+    <view class="b1_c1">
+      <view class="b1_l1">as of 11:23 CST</view>
+      <view class="b1_l2">-3°</view>
+      <view class="b1_l3">晴朗</view>
+    </view>
+    <view class="b1_c2">
+      <image class="typeImg1" src="../../images/晴天.png"></image>
+      -1°/-13°
+    </view>
+  </view>
+
+  <view class="border_2" style="background:white">
+    <view class="title">昌平区 预报</view>
+    <view class="b2_c">
+      <view class="b2_c1">
+        今天
+        <view class="high">-1°</view>
+        <view class="low">-13°</view>
+           <!--<view>晴朗</view>   需要天气情况 然后把下面这个image对应上就行  -->
+        <image class="typeImg2" src="../../images/晴天.png"></image>
+      </view>
+      <view class="line"></view>
+      <view class="b2_c1">
+        <view style="color:#606060">周二 15</view>
+        <view class="high">-1°</view>
+        <view class="low">-13°</view>
+        <image class="typeImg2" src="../../images/晴天.png"></image>
+      </view>
+      <view class="line"></view>
+      <view class="b2_c1">
+        <view style="color:#606060">周三 16</view>
+        <view class="high">-1°</view>
+        <view class="low">-13°</view>
+        <image class="typeImg2" src="../../images/晴天.png"></image>
+      </view>
+      <view class="line"></view>
+      <view class="b2_c1">
+        <view style="color:#606060">周四 17</view>
+        <view class="high">-1°</view>
+        <view class="low">-13°</view>
+        <image class="typeImg2" src="../../images/晴天.png"></image>
+      </view>
+      <view class="line"></view>
+      <view class="b2_c1">
+        <view style="color:#606060">周五 18</view>
+        <view class="high">-1°</view>
+        <view class="low">-13°</view>
+        <image class="typeImg2" src="../../images/晴天.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="border_3" style="background:white">
+    <view class="title">昌平区 今日天气</view>
+    <view class="b3_l1">
+      <view class="b3_l1_c1">
+        <view class="b3_l1_c1_1">-7°</view>
+        <view class="b3_l1_c1_2">体感温度</view>
+      </view>
+      <view class="b3_l1_c2">
+        <view class="b3_l1_c2_1">49</view>
+        <view class="b3_l1_c2_2">空气质量指数</view>
+      </view>
+    </view>
+    <text>\n</text>
+    <view class="b3_l2">
+      <image class="typeImg3" src="../../images/高低.png"></image>
+      高/低<!-- 最高/低气温 -->
+      <view class="right">-1°/-13°</view>
+    </view> 
+    <view class="b3_l2">
+      <image class="typeImg3" src="../../images/风速.png"></image>
+      风速
+      <view class="right">14km/h</view>
+    </view>
+    <view class="b3_l2">
+      <image class="typeImg3" src="../../images/湿度.png"></image>
+      湿度
+      <view class="right">24%</view>
+    </view>
+    <view class="b3_l2">
+      <image class="typeImg3" src="../../images/紫外线.png"></image>
+      紫外线指数
+      <view class="right">2（最大值10）</view>
+    </view>
+    <view class="b3_l2">
+      <image class="typeImg3" src="../../images/能见度.png"></image>
+      能见度
+      <view class="right">14.48km</view>
+    </view>
+    <text>\n</text>
+ </view>
+
+ <view class="border_3" style="background:white">
+    <view class="title">室内环境</view>
+    <view class="b3_l1">
+      <view class="b3_l1_c1">
+        <view class="b3_l1_c1_1">27°</view>
+        <view class="b3_l1_c1_2">温度</view>
+      </view>
+      <view class="b3_l1_c2">
+        <view class="b3_l1_c2_1">30%</view>
+        <view class="b3_l1_c2_2">湿度</view>
+      </view>
+    </view>
+    <view class="b3_l2">
+      <image class="typeImg3" src="../../images/co2.png"></image>
+      二氧化碳浓度
+      <view class="right">500ppm</view> 
+    </view> 
+    <text>\n</text>
+ </view>
+ <text>\n</text>
+</view>
